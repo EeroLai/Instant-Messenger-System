@@ -22,7 +22,7 @@
         m-0
         focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInputEmail1"
                         aria-describedby="emailHelp" placeholder="Enter email">
-                    <small id="emailHelp" class="block mt-1 text-xs text-slate-200">We'll never share your email with
+                    <small id="emailHelp" class="block mt-1 text-xs text-slate-200 h-sc">We'll never share your email with
                         anyone
                         else.</small>
                 </div>
