@@ -1,10 +1,11 @@
 <template>
     <div class="flex justify-center items-center h-screen">
-        <div class="text-center">
+        <div>
             <form>
                 <div class="form-group mb-6">
-                    <label for="exampleInputEmail1" class="form-label inline-block mb-2 text-gray-700">Email
-                        address</label>
+                    <label for="exampleInputEmail1" class="form-label inline-block mb-2 text-white">
+                        Account
+                    </label>
                     <input type="email" class="form-control
         block
         w-full
@@ -21,13 +22,13 @@
         m-0
         focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInputEmail1"
                         aria-describedby="emailHelp" placeholder="Enter email">
-                    <small id="emailHelp" class="block mt-1 text-xs text-gray-600">We'll never share your email with
+                    <small id="emailHelp" class="block mt-1 text-xs text-slate-200">We'll never share your email with
                         anyone
                         else.</small>
                 </div>
                 <div class="form-group mb-6">
                     <label for="exampleInputPassword1"
-                        class="form-label inline-block mb-2 text-gray-700">Password</label>
+                        class="form-label inline-block mb-2 text-white">Password</label>
                     <input type="password" class="form-control block
         w-full
         px-3
@@ -48,7 +49,7 @@
                     <input type="checkbox"
                         class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
                         id="exampleCheck1">
-                    <label class="form-check-label inline-block text-gray-800" for="exampleCheck1">Check me
+                    <label class="form-check-label inline-block text-slate-300" for="exampleCheck1">Check me
                         out</label>
                 </div>
                 <button type="submit" class="
