@@ -4,9 +4,9 @@ namespace InstantMessengerApi.Hubs
 {
     public class ChatHub : Hub
     {
-        public async Task SendMessage(string user, string msg)
+        public Task SendMessage(string msg)
         {
-            await Clients.All.SendAsync("ReceiveMsg", user, msg);
+            return Clients.All.SendAsync("ReceiveMsg", msg);
         }
     }
 }

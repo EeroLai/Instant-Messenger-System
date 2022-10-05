@@ -10,5 +10,8 @@
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^5.3.3",
     "nuxt": "3.0.0-rc.11"
+  },
+  "dependencies": {
+    "@microsoft/signalr": "^6.0.9"
   }
 }
