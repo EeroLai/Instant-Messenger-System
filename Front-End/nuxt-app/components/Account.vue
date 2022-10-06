@@ -10,6 +10,11 @@ export default {
             login: true,
             register: false
         }
+    },
+    methods:{
+        testP(){
+            console.log('parent')
+        }
     }
 }
 </script>

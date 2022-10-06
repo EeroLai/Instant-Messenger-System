@@ -37,6 +37,7 @@
 export default {
     methods: {
         xx() {
+            this.$parent.testP();
             this.$parent.login = true;
             this.$parent.register = false;
         }
